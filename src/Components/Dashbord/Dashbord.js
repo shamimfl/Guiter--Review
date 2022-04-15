@@ -12,7 +12,7 @@ const Dashbord = () => {
     return (
         <div className='md:grid grid-cols-2'>
          <div>
-         <LineChart width={600} height={400} data={data}>
+         <LineChart width={500} height={400} data={data}>
             <Line dataKey={'sell'}></Line>
             <Line dataKey={'revenue'}></Line>
             <XAxis dataKey={'month'}></XAxis>
